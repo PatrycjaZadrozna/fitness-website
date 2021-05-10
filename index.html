@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Fitness web</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+        <div class="logo"><a href="#">Logo</a></div>
+    <ul class="menu-list">
+       <div class="icon cancel-btn">
+           <i class="fas fa-times"></i>
+       </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+   </div>
+</nav>
+
+  <section class="banner" id="home">
+    <img src="img/1.jpg" class="person">
+  <div class="profession">
+      <h1>Dietician</h1>
+    </div>
+    <div class="name">
+      <h2>Katie Brook</h2>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="hero-img">
+      <img class="fruits" src="img/pexels-trang-doan-1128678.jpg" >
+    </div>
+    <div class="hero-desc">
+        <h2>
+          Improve your <span>health</span> with us.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+          asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+          deleniti lor.
+        </p>
+      </div>
+</section>
+<section class="main" id="services">
+  <section class="items">
+    <div class="container reveal">
+      <h2>fresh juices</h2>
+      <div class="cards">
+        <div class="text-card">
+          <h2>pineapple drink</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores vitae sunt laudantium dolorem saepe! Nobis ad nulla nostrum tempore dolor consectetur labore! Id quibusdam eligendi obcaecati aliquid impedit. Tempore.</p>
+          <img src="img/drink1.jpg">
+        </div>
+        <div class="text-card">
+          <h2>orange drink</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores vitae sunt laudantium dolorem saepe! Nobis ad nulla nostrum tempore dolor consectetur labore! Id quibusdam eligendi obcaecati aliquid impedit. Tempore.</p>
+          <img src="img/drink2.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="items">
+    <div class="container reveal">
+      <h2>colorful drinks</h2>
+      <div class="cards">
+        <div class="text-card">
+          <h2>chocolate drink</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores vitae sunt laudantium dolorem saepe! Nobis ad nulla nostrum tempore dolor consectetur labore! Id quibusdam eligendi obcaecati aliquid impedit. Tempore.</p>
+          <img src="img/drink3.jpg" >
+        </div>
+        <div class="text-card">
+          <h2>strawberry drink</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores vitae sunt laudantium dolorem saepe! Nobis ad nulla nostrum tempore dolor consectetur labore! Id quibusdam eligendi obcaecati aliquid impedit. Tempore.</p>
+          <img src="img/drink4.jpg" >
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+  <section class="gallery" id="gallery">
+    <h2>Click and choose Our service</h2>
+    <div class="panels">
+      <div class="panel panel1">
+          <p>energy</p>
+          <p>fruts</p>
+          <p>fresh</p>
+      </div>
+      <div class="panel panel2">
+        <p>intensive</p>
+        <p>training</p>
+        <p>effective</p>
+    </div>
+    <div class="panel panel3">
+      <p>relax</p>
+      <p>relax</p>
+      <p>relax</p>
+  </div>
+  <div class="panel panel4">
+    <p>yoga</p>
+    <p>meditation</p>
+    <p>yoga</p>
+</div>
+<div class="panel panel5">
+  <p>food</p>
+  <p>salads</p>
+  <p>health</p>
+</div>
+<div class="panel panel6">
+  <p>drinks</p>
+  <p>smoothie</p>
+  <p>fruits</p>
+</div>
+    </div>
+  </section>
+
+  <footer id="contact">
+  <form>
+  <label for="first Name">First Name:</label>
+  <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+  <label for="last name">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br><br>
+
+  <label for="Gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male" checked>
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label> <br><br>
+  <button class="btn">Send</button>
+</form>
+<section class="footer text-center">
+  <div class="contact">
+    <p><i class="fab fa-facebook-f"></i>Facebook</p>
+    <p> <i class="fab fa-youtube-square"></i>YouTube</p>
+    <p><i class="fab fa-twitter"></i>Twitter</p>
+    </div>
+</section>
+  </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
